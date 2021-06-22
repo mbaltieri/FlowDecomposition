@@ -1,3 +1,8 @@
+# Continuous-time recurrent neural network (CTRNN) implementation following Beer, R. D. (1995). On the Dynamics of Small Continuous-Time Recurrent Neural Networks. Adaptive Behavior, 3(4), 469–509.
+# Chaotic behaviour with values in the caption of Figure 9
+#
+# WIP: implementation of Stochastic CTRNNs
+
 import torch
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D

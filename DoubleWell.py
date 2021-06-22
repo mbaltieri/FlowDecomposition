@@ -1,4 +1,8 @@
-# Original code from https://github.com/pratikac/grad-info
+# Code for double well simulation in Chaudhari, Pratik, and Stefano Soatto. 
+# "Stochastic gradient descent performs variational inference, converges to limit cycles for deep networks." 
+# International Conference on Learning Representations. 2018.
+#
+# Adapted from https://github.com/pratikac/grad-info
 
 import torch
 import matplotlib.pyplot as plt
@@ -13,7 +17,7 @@ iterations = int(T//dt)
 b = torch.exp(torch.tensor(0.))
 eps = 7.5 * 10**(-4)
 
-ls = [0,1.5,0.]
+ls = [0,1.5,2.0]                                                # strength of nonequilibrium (solenoidal) current
 
 def phi(x, y):
     return (x**2-1)**2/4. + y**2/2.

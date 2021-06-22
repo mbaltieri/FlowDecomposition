@@ -1,4 +1,4 @@
-# Example from "Escape rate for nonequilibrium processes dominated by strong non-detailed balance force"
+# Double well ("Second example") from "Escape rate for nonequilibrium processes dominated by strong non-detailed balance force"
 # https://aip.scitation.org/doi/pdf/10.1063/1.5008524
 
 import torch
